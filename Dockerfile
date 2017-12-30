@@ -1,5 +1,5 @@
 FROM alpine:latest
-LABEL maintainer="magandrez@gmail.com"
+LABEL maintainer="Manuel González <magandrez@gmail.com>"
 
 RUN apk update && apk add nginx \
 && rm -f /etc/nginx/conf.d/default.conf
